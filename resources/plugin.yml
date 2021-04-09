@@ -2,7 +2,7 @@ name: Wanted
 main: me.bertek41.wanted.Wanted
 version: maven.version
 author: bertek41
-api-version: 1.15
+api-version: 1.16
 depend: [PlaceholderAPI]
 softdepend: [HolographicDisplays]
 permissions:
