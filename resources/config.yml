@@ -1,0 +1,75 @@
+wanted:
+  use_resource_pack: true
+  resource_pack_required: true
+  resource_pack_link: 'https://www.dropbox.com/s/qvi66qo3mewvwen/Wanted%20Resource%20Pack.zip?dl=1'
+  resource_pack_hash: ''
+  # If you set hash for resource pack player will only download pack once then every join, player will use downloaded resource pack.
+  set_resource_pack_after: 100 # Ticks after player join
+  holograms_update: 30 # Minutes
+
+bungeecord:
+  bungeecord_mode: false
+  state_as_motd: true
+  hub_server: 'Hub'
+
+countdown:
+  lobby: 30
+  # Seconds
+  game: 300
+  # Seconds
+
+game:
+  glow_color: RED
+  # Colors: AQUA, BLACK, BLUE, DARK_AQUA, DARK_BLUE, DARK_GRAY, DARK_GREEN, DARK_PURPLE, DARK_RED, GOLD, GRAY, GREEN, LIGHT_PURPLE, RED, WHITE, YELLOW
+  border_color: RED
+  # Colors: BLUE, RED, GREEN
+  price_per_kill: 4
+  win_commands:
+  - 'msg <player> &aCongratulations you won!'
+  draw_commands: []
+  lose_commands: []
+  make_allowed_like_blocked: false
+  # If true commands in allowed_commands will be blocked other commands can be run
+  # If false only commands in allowed_commands can be run
+  allowed_commands:
+  - '/leave'
+  glow_duration: 2
+  glow_duration_countdown: 5
+  bullet_height: -0.65
+  # From eye location
+  bullet_height_while_sneaking: -0.55
+  # From eye location
+  head_height: 1.42
+  head_height_while_sneaking: 1.04
+
+items:
+  join_arena_item: COMPASS
+  join_arena_name: '&aJoin Arena'
+  join_arena_lore:
+    - '&7Click and join'
+    - '&7To an arena.'
+  return_lobby_item: BARRIER
+  return_lobby_name: '&cReturn lobby'
+  return_lobby_lore:
+    - '&7Click and return'
+    - '&7To the lobby.'
+  guns_item: CHEST
+  guns_name: '&7Guns'
+  guns_lore:
+    - '&7Click and select'
+    - '&7A gun.'
+
+MySQL:
+  enabled: false
+# False means sqlite will be used.
+  host: "hostname"
+  database: "database"
+  port: 3306
+  user: "root"
+  password: "123456"
+
+# Do not change these.
+version: 1.0
+lang_version: 1.0
+guns_version: 1.0
+arenas_version: 1.0

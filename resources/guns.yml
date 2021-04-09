@@ -1,0 +1,65 @@
+guns:
+  '0':
+    default: true
+    material: WOODEN_HOE
+    durability: 0
+    distance: 30.0
+    magazine: 30
+    damage: 2.0
+    headshot_damage: 4.0
+    yaw_recoil: 0.6
+    pitch_recoil: -0.6
+    bullet_particle: SNOWBALL
+    name: '&8M4A1'
+    lore:
+    - '&7Ta ta ta'
+    - '&7You died leave'
+    hit_sound: 'ENTITY_ARROW_HIT_PLAYER:10.0:1.0' # sound:volume:pitch
+    headshot_hit_sound: 'ENTITY_ARROW_HIT_PLAYER:10.0:1.0'
+    reload_time: 20
+    # Ticks
+    # 20 ticks equals 1 second
+  '1':
+    coin: 10
+    material: IRON_HOE
+    durability: 0
+    distance: 30.0
+    magazine: 30
+    damage: 2.5
+    headshot_damage: 5.0
+    yaw_recoil: 0.8
+    pitch_recoil: -0.8
+    bullet_particle: DRIP_LAVA
+    name: '&8G36'
+    lore:
+    - '&7Ta ta ta'
+    - '&7You died leave'
+    hit_sound: 'ENTITY_ARROW_HIT_PLAYER:10.0:1.0'
+    headshot_hit_sound: 'ENTITY_ARROW_HIT_PLAYER:10.0:1.0'
+    reload_time: 20
+  '2':
+    coin: 20
+    material: GOLDEN_HOE
+    durability: 0
+    distance: 80.0
+    magazine: 5
+    damage: 12.0
+    headshot_damage: 20.0
+    yaw_recoil: 3.6
+    zoom_yaw_recoil: 1.6
+    pitch_recoil: -3.6
+    zoom_pitch_recoil: -1.6
+    bullet_particle: SMOKE_NORMAL
+    zoom: true
+    zoom_required: true
+    name: '&8M24'
+    lore:
+    - '&7Ta ta ta'
+    - '&7You died leave'
+    hit_sound: 'ENTITY_ARROW_HIT_PLAYER:10.0:1.0'
+    headshot_hit_sound: 'ENTITY_ARROW_HIT_PLAYER:10.0:1.0'
+    reload_time: 40
+    cooldown: 2000
+    # Milliseconds
+    # 2000 milliseconds equals 2 seconds.
+    sound: 'custom.m24_fire:10.0:1.0' # sound:volume:pitch

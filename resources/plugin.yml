@@ -1,0 +1,100 @@
+name: Wanted
+main: me.bertek41.wanted.Wanted
+version: maven.version
+author: bertek41
+api-version: 1.15
+depend: [PlaceholderAPI]
+softdepend: [HolographicDisplays]
+permissions:
+  arenacommand.help:
+    description: Allows player to help command
+    default: op
+  arenacommand.setspawn:
+    description: Allows player to setspawn command
+    default: op
+  arenacommand.create:
+    description: Allows player to create command
+    default: op
+  arenacommand.delete:
+    description: Allows player to delete command
+    default: op
+  arenacommand.setlobby:
+    description: Allows player to setlobby command
+    default: op
+  arenacommand.setpos:
+    description: Allows player to setpos command
+    default: op
+  arenacommand.setspectate:
+    description: Allows player to setspectate command
+    default: op
+  arenacommand.setminimum:
+    description: Allows player to setminimum command
+    default: op
+  arenacommand.setmaximum:
+    description: Allows player to setmaximum command
+    default: op
+  arenacommand.setmaximumreward:
+    description: Allows player to setmaximumreward command
+    default: op
+  arenacommand.setitem:
+    description: Allows player to setitem command
+    default: op
+  arenacommand.rename:
+    description: Allows player to rename command
+    default: op
+  arenacommand.setlocation:
+    description: Allows player to setlocation command
+    default: op
+  arenacommand.steps:
+    description: Allows player to steps command
+    default: op
+  wanted.help:
+    description: Allows player to help command
+    default: op
+  wanted.reload:
+    description: Allows player to reload command
+    default: op
+  wanted.pack:
+    description: Allows player to resource pack command
+    default: true
+  wanted.addstats:
+    description: Allows player to addstats command
+    default: op
+  wanted.setstats:
+    description: Allows player to setstats command
+    default: op
+  wanted.sethologram:
+    description: Allows player to sethologram command
+    default: op
+  wanted.deletehologram:
+    description: Allows player to deletehologram command
+    default: op
+  wanted.convert:
+    description: Allows player to convert command
+    default: op
+  wanted.*:
+    description: Wildcard permission
+    default: op
+    children:
+      arenacommand.help: true
+      arenacommand.setspawn: true
+      arenacommand.create: true
+      arenacommand.delete: true
+      arenacommand.setlobby: true
+      arenacommand.setpos: true
+      arenacommand.setspectate: true
+      arenacommand.setminimum: true
+      arenacommand.setmaximum: true
+      arenacommand.setmaximumreward: true
+      arenacommand.setitem: true
+      arenacommand.rename: true
+      arenacommand.setlocation: true
+      arenacommand.steps: true
+      wanted.help: true
+      wanted.reload: true
+      wanted.pack: true
+      wanted.addstats: true
+      wanted.setstats: true
+      wanted.sethologram: true
+      wanted.deletehologram: true
+      wanted.convert: true
